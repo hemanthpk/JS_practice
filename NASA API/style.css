@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2em;
+}
+.btn{
+    width: 25%;
+}
+
+
+
