@@ -5,13 +5,25 @@
 }
 body{
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 2em;
 }
 .btn{
+    margin-top: 2em;;
     width: 25%;
+}
+figure{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+    align-items: center;
+}
+figure img{
+    width: 75%;
+}
+figure figcaption{
+    margin: 0 2em 0 2em;
 }
 
 
